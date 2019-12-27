@@ -7,7 +7,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
      <Router>
-       <Route path='/' component={Routes}></Route>
+      <Routes />
      </Router>
   );
 }

@@ -1,6 +1,7 @@
 import React, { ChangeEvent, useState } from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import { State, PageProps } from "./index.interface";
+import {Button} from 'antd'
 
 
 const About =(state:State,props:PageProps) =>{
@@ -10,9 +11,9 @@ const About =(state:State,props:PageProps) =>{
     return (
       <div>
         <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>
+        <Button onClick={() => setCount(count + 1)}>
           Click me
-        </button>
+        </Button>
       </div>
     );
   }
