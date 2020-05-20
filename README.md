@@ -1,35 +1,44 @@
-基于 create-react-app 编译框架，加入 react-router typescript,配置eslint，tslint
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 运行方式
-```
-#安装本地宝
-npm install
-#启动本地
-npm run start
-#打包编译
-npm run build
-```
+## Available Scripts
 
-# 脚手架定制化
-支持编译 scss
+In the project directory, you can run:
 
-# 状态管理和页面通信
-推荐使用react-hooks 
+### `npm start`
 
-可根据项目情况安装 redux、mobx等
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-# UI 库
-可根据项目情况自行安装UI 库,推荐使用 ant design 或者ant design mobile
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-ant desgin https://ant.design/index-cn
+### `npm test`
 
-# 文档
-typescript https://www.tslang.cn/docs/home.html
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-mobx https://cn.mobx.js.org/
+### `npm run build`
 
-redux https://www.redux.org.cn/
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-react router http://react-guide.github.io/react-router-cn/
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-react hooks https://react.docschina.org/docs/hooks-overview.html
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
