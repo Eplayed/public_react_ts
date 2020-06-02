@@ -20,11 +20,23 @@ class Home extends React.Component<PageProps, State> {
 
   componentDidMount() {}
 
+  toFormPage = () => {
+    this.props.history.push("form");
+  };
   render() {
     const { name, value, userInfo } = this.state;
     return (
       // !pending && (
-      <>home</>
+      <>
+        <div
+          onClick={() => {
+            this.toFormPage();
+          }}
+        >
+          去表单页
+        </div>
+        <div>去表单页</div>
+      </>
     );
     // );
   }
