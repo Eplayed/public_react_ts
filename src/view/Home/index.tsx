@@ -35,7 +35,7 @@ class Home extends React.Component<PageProps, State> {
         >
           去表单页
         </div>
-        <div>去表单页</div>
+        <div className={styles.div}>去表单页</div>
       </>
     );
     // );
